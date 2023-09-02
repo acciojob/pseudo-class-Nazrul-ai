@@ -5,11 +5,11 @@
     }
     span:first-child{
 /*         content: "Before content: "; */
-        color: #f00;
+        color: red;
         font-size: 20px;
     }
    span:last-child{
 /*         content: "Before after: "; */
-        color: #f00;
+        color: red;
         font-size: 20px;
     }
