@@ -1,15 +1,16 @@
- #container{
+    
+    #container{
         margin: 20px;
-/* 	 position:relative; */
 
+        /* position: relative; */
     }
-    span:first-child{
-/*         content: "Before content: "; */
-        color: red;
+    #container::before{
+        content: "Before Element";
+        color: #f00;
         font-size: 20px;
     }
-   span:last-child{
-/*         content: "Before after: "; */
-        color: red;
+    #container::after{
+        content: "After Element: ";
+        color: #f00;
         font-size: 20px;
     }
